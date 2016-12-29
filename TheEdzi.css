@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 2800px;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.sec{
+    width: 99.9%;
+/*    border: 1px solid silver;*/
+}
+
+/*--------------------sec1----------------------*/
+
+#logotitle{
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 15%;
+}
+#logotitle>h1{
+    color: white;
+}
+#logotilte>hr{
+    border-color: white;
+}
+#imglogo>img{
+    position: absolute;
+}
+#imgcuca{
+    width: 28%;
+    margin-top: 15.5em;
+    margin-left: 6%;
+}
+.fwin{
+    display: inline-block;
+}
+#cuca{
+    width: 40%;
+    height: 51em;
+/*    background-color: black;*/
+    background-image: url(/img/back1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#belief{
+    vertical-align: top;
+    width: 57%;
+}
+#beliefbox{
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-left: 4%;
+}
+#beliefbox>hr{
+    border-color: black;
+}
+
+/*--------------------sec2----------------------*/
+
+#sec2{
+    background-color: #eee;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
+#headname{
+    margin-left: 15%;
+    display: inline-block;
+}
+#headname>hr{
+    border-color: black;
+}
+.btns{
+    width: 3.7%;
+    margin-top: 24em;
+    position: absolute;
+}
+#leftbtn{
+    margin-left: 15%;
+}
+#rightbtn{
+    margin-left: 80%;
+}
+.btns>a>img{
+    width: 100%;
+}
+#imgcal{
+    width: 500%;
+}
+.cals{
+    display: inline;
+}
+.cals>img{
+    margin-left: 4.45%;
+    margin-right: 4.45%;
+    width: 11%;
+    height: 600px;
+}
+#menu{
+    width: 70%;
+    height: 3.5em;
+    margin: 2em 14.6% 0.3em 14.75%;
+}
+#menu>hr{
+    border-color: black;
+}
+#topmenu{
+    height: 3.5em;
+}
+#topmenu>li{
+    width: 19%;
+    height: 2.4em;
+    padding-top: 1em;
+    display: inline-block;
+/*    border: 1px solid silver;*/
+    text-align: center;
+}
+#topmenu>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+.smallmenu{
+    position: absolute;
+}
+.smallmenu>li{
+    visibility: hidden;
+    list-style: none;
+}
+#dotm{
+    margin-left: 46.5%;
+    margin-right: 45%;
+    margin-top: 1.5em;
+}
+.dots{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: silver;
+    display: inline-block;
+    margin-left: 3%;
+}
+#remote{
+    width: 6em;
+    height: 8em;
+    margin-top: 45em;
+    margin-left: 89%;
+    z-index: -1;
+    position: fixed;
+    border: 1px solid silver;
+}
+
+/*---------------------------mobile---------------------------------*/
+@media all and (max-width: 767px){
+}
+
+/*---------------------------tab---------------------------------*/
+@media all and (min-width: 767.1px) and (max-width: 1024px){
+}
+
+/*----------------------------pc--------------------------------*/
+@media all and (min-width: 1024.1px){
+}
